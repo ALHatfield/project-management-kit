@@ -1,7 +1,9 @@
 
-
+.font-brand {
+  font-family: 'Lobster', cursive;
+}
 .bg-brand {
-  background: salmon;
+  background: #fa8072;
 }
 .text-dark {
   color: #282c34;
@@ -11,14 +13,29 @@
   background-color: #282c34;
   height: 100vh;
   min-height: 100vh;
-  font-size: calc(10px + 2vmin);
   color: white;
+}
+
+/* .project-dashboard {
+
+} */
+.project-title {
+  font-size: 1rem;
+  font-weight: normal;
+}
+.project-title::before {
+  content: ">";
+  margin-right: 1rem;
+}
+.project-title.selected {
+  font-weight: bold;
 }
 
 .card {
   margin: 1rem;
   padding: 1rem;
   color: #282c34;
+  font-size: 1rem;
 }
 
 .border-right {
