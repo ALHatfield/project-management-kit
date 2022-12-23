@@ -15,6 +15,7 @@ function App() {
             <div className='project-title selected'>Create Project Management Kit</div>
             <div className="project-title">Another Project</div>
 
+
           </div>
         </div>
         <div className="col-10 p-0">
